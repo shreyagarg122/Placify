@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #123C69;
+}
+
+/* .navbar li {
+  list-style: none;
+  display:inline-flex;
+} */
+
+.choose div:hover {
+  color: #123C69;
+  cursor: pointer;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.choose div {
+  padding-left: 60px;
+  padding: 45px; 
+  display:inline-block;
+  align-items:center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.admin {
+  border-right: 1px solid #123C69;
+  padding-left: 65px;
+}
+
+.choose h1 {
+  padding:20px;
+  padding-left: 30%;
+}
+
+.choose img{
+  height: 300px;
+  width: 300px; 
+  border-radius: 50%;
+}
+
+.navbar h1 {
+  color:aqua;
+  padding: 20px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.navbar h1:hover {
+  color: #EDC7B7;
+}
+
+.navbar .links {
+  margin-left: auto;
+  display: flex;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: aqua;
+}
+.navbar a:hover {
+  color: #EDC7B7;
+}
+.navbar button {
+  margin-left: 15px;
+  color: #123C69;
+  background-color: aqua;
+  border-radius: 45%;
+  font-weight: 700;
+}
+
+.navbar button:hover{
+  cursor: pointer;
+  box-shadow: 1px 3px 5px rgba(0,0,0,1);
+}
+
+.content {
+  background-color:#EDC7B7;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #EDC7B7;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #123C69;
+  margin-bottom: 8px;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-details h2{
+  font-size: 20px;
+  color:#333;
+  margin-bottom: 10px;
+}
+
+.blog-details div{
+  margin: 20px 0;
+  content: "\a";
+  white-space:pre-wrap;
+  text-align: justify;
+}
+
+.blog-details a{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blog-details a:hover{
+  text-shadow: 1px 3px 5px rgba(0,0,0,0.6);
+}
+
+.blog-details button{
+  background: #123C69;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.create {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  color: #123C69;
+  font-weight: 700;
+}
+.create h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  background-color: #DEF2F1;
+  font-weight: 500;
+}
+.create button {
+  background: #123C69;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found a{
+  text-decoration: none;
+}
+
+.not-found:hover a{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #EDC7B7;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  text-decoration: none;
+}
+
+.profile button{
+  background: #123C69;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.register {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register label {
+  text-align: left;
+  display: block;
+  color: #123C69;
+  font-weight: 700;
+}
+.register h1 {
+  font-weight: 700;
+  color: #333;
+  font-size: 35px;
+}
+.register input, .register textarea, .register select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  background-color: #DEF2F1;
+  font-weight: 500;
+}
+.register button {
+  background: #123C69;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chart-list {
+  display: flex;
+}
